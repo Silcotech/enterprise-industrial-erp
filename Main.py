@@ -17,4 +17,3 @@ def create_project(name: str):
 @app.get("/projects")
 def list_projects():
     return projects
-
